@@ -1,0 +1,78 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap'); */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Commissioner', sans-serif;
+}
+.login{
+    background-color: #EDEDED;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-panel{
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 35%;
+    height: 55%;
+    border-radius: 25px;
+    padding: 2%;
+}
+.inputs{
+  align-items: center;
+  text-align: center;
+}
+.inputs input{
+    width: 80%;
+    height: 45px;
+    font-weight: 400;
+    font-size: 27px;
+    color: #727272;
+    background-color: #EDEDED;
+    outline: transparent;
+    border: transparent;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 30px auto;
+}
+.btn-submit-responsable{
+    background-color: #7BC049;
+    padding: 7px 10px;
+    width: 20%;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+    outline: transparent;
+    border: transparent;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    position: absolute;
+    left: 0%;
+    top: -2%;
+}
+.login-btn-responsable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-submit-responsable:hover{
+    border:  solid 3px #7BC049;
+    background-color: white;
+    color: #7BC049;
+
+}
+.title-inscrire-icon{
+    margin-top: 5%;
+}
+.title-inscrire{
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}

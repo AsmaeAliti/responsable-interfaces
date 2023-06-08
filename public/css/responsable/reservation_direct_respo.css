@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+  font-family: 'Commissioner', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #EDEDED;
+}
+.left-responsable {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+
+.header-btn{
+  background-color: #2aa6d3;
+  /* width: 200px; */
+  color: rgb(255, 255, 255);
+  height: 30px;
+  border-radius: 7px;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+}
+
+.logout{
+  background-color: #DC3545;
+}
+.headerLinks{
+  text-align: end;
+  padding-top: 70px;
+  padding-right: 50px;
+}
+
+.reserver{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: rgba(237, 237, 237, 1);
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+
+
+}
+.reserver-panal{
+    width: 50%;
+    margin-top: 3%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    height: 80%;
+}
+
+.left-img img{
+    border-radius: 20px 0px 0px 20px;
+    height: 100%;
+    width: 100%; 
+}
+.right{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    padding-left: 7%;
+    padding-right: 10%;
+    width: 50%;
+
+}
+.revesion-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: x-large;
+
+}
+.calandericon{
+    width: 13%;
+}
+.right input , .selectInput{
+ margin-bottom: 40px ; 
+ display: block;
+ width: 100%;
+}
+.right input,select{
+    font-size: large;
+    background: rgba(237, 237, 237, 1);
+    border: transparent;
+    padding: 3%;
+    border-radius: 10px;
+  
+}
+
+.submit-btn{
+    text-decoration: none;
+    background-color:rgb(123,192,73);
+    border-radius: 10px;
+    padding: 4%;
+    width: 45%;
+    text-align: center;
+    color: white;
+    margin-left: 2%;
+    border: solid 3px rgb(123,192,73);
+    font-size: 25px;
+}
+.submit-btn:hover{
+    color :rgb(123,192,73);
+    background-color: white;
+    box-sizing: border-box;
+    border: solid 3px rgb(123,192,73);
+    /* padding: 4.05%; */
+
+
+
+}
+.cart-reserver{
+    position: absolute;
+    width: 15%;
+    height: 85%;
+    right: 0;
+    top: 10%;
+    /* overflow-y: scroll; */
+}
+
+.navbar{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.biblio-logo{
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.navbar-right-side{
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+}
+.icon{
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.cart_icon{
+  cursor: pointer;
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

@@ -1,0 +1,56 @@
+
+
+.Historique {
+  border: 1.5px solid #EEE16A;
+  background-color: #EEE16A;
+  color: black  ;
+}
+.Historique:hover {
+  border: 2px solid #EEE16A;
+  background-color: transparent;
+  color: black  ;
+}
+
+.Reserver {
+  background-color:  #7BC049;
+  color: #EDEDED;
+}
+.Reserver:hover {
+  border: 2px solid #7BC049;
+  background-color: transparent;
+  color: #7BC049;
+
+}
+
+.aRetourner {
+  border: 2px solid #42AFD8;
+  background-color: transparent;
+  color: #42AFD8;
+}
+.aRetourner:hover {
+  border: 1.5px solid #42AFD8;
+  background-color: #42AFD8;
+  color: #dee2e6;
+}
+
+.Retourner{
+  color: rgb(255, 255, 255);
+  height: 20px;
+  border-radius: 7px;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-bottom: 70px;
+  border: 1.5px solid #42AFD8;
+  background-color: #42AFD8;
+}
+.Retourner:hover{
+  background-color: #2aa6d3;
+}
+
+
+
+
+
+
+
